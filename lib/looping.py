@@ -11,7 +11,7 @@ def square_integers(int_list):
     return [int * int for int in int_list]
 
 def fizzbuzz():
-    i = 0
+    i = 1
     while i <= 100:
         if i % 3 == 0 and i % 5 == 0:
             print('FizzBuzz')
